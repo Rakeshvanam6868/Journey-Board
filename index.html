@@ -16,8 +16,15 @@
             <li><img src="./Images/Navbar/Settings.png" alt="Settings"></li>
             <li><img src="./Images/Navbar/Notificatioins.png" alt="Notifications"></li>
             <li><img src="./Images/Navbar/Profile.png" alt="Profile-avatar" class="profile"></li>
-            <li><img src="" alt=""></li>
+            <li>
+               <div class="nav_dots">
+                   <div class="nav_blue"></div>
+                   <div class="nav_blue"></div>
+                   <div class="nav_blue"></div>
+               </div>
+            </li>
            </ul>
+           
         </div>
      </div>
 
@@ -26,14 +33,14 @@
      <div class="notice_container">
       <div class="notice_board">
          <div class="notice">
-            <img src="" alt="">
+            <img class="notice_img" src="./Images/NoticeCross.png" alt="">
             <p>N</p>
             <p>o</p>
             <p>t</p>
             <p>i</p>
             <p>c</p>
             <p>e</p>
-            <p></p>
+            <p class="remove">.</p>
             <p>B</p>
             <p>o</p>
             <p>a</p>
@@ -47,37 +54,43 @@
      </div>
 
       <!-- Collapsible Sidebar -->
-    <div class="sidebar">
-      <button class="toggle-btn" onclick="toggleSidebar()">Expand</button>
-      <div class="sidebar-content">
-         <div class="expanded-content">
-           <ul class="expand_items">
-            <li class="bold"><b>Explore the world of management</b></li>
-            <li class="point">Technical Project Management</li>
-            <li class="point">Threadbuild</li>
-            <li class="point">Structure your pointers</li>
-            <li class="point">4SA Method</li>
-           </ul>
-        </div>
-          <div class="collapsed-content blue">
-            <p>1</p>
-          </div>
-      </div>
-  </div>
+      <div class="sidebar">
+         
+         <button class="toggle-btn" onclick="toggleSidebar()">
+            <h1 class="title">Journey Board</h1>
+           <img src="./Images/expandArrow.png" alt="Toggle Sidebar" class="toggle-img">
+         </button>
+         <div class="sidebar-content">
+           <div class="expanded-content">
+             <ul class="expand_items">
+               <li class="bold"><b>Explore the world of management</b></li>
+               <li class="point">Technical Project Management</li>
+               <li class="point">Threadbuild</li>
+               <li class="point">Structure your pointers</li>
+               <li class="point">4SA Method</li>
+             </ul>
+           </div>
+           <div class="collapsed-content blue">
+             <p>1</p>
+           </div>
+         </div>
+       </div>
+       
+       
 
 
      <!-- Main content -->
 
      <div class="main">
       <div class="top__content">
-         <h1>Technical Project Management</h1>
+         <h1 class="t1">Technical Project Management</h1>
       </div>
       <div class="bottom__content">
          <button>Submit task</button>
       </div>
       <div class="container">
-         <h1>Explore the world of management</h1>
-         <p>As a project manager, you play an important role in leading a project through initiation, planning, execution, monitoring, controlling and completion. How?
+         <h1 class="m1">Explore the world of management</h1>
+         <p class="c1">As a project manager, you play an important role in leading a project through initiation, planning, execution, monitoring, controlling and completion. How?
             Do you want to manage each and every step of your life?
          </p>
       </div>
@@ -91,24 +104,24 @@
 
         <div class="project_block">
           <div class="heading">
-            <h2>Technical Project Management</h2>
-            <img src="" alt="">
+            <h2 class="p1">Technical Project Management</h2>
+            <b class="heading_i">i</b>
           </div>
-          <p class="description"><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
+          <p class="description d1"><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
           <div class="youtube">
-            <iframe id="youtube-video" src="https://www.youtube.com/embed/TiMRwri1xJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="youtube-video" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>        
         </div>
 
         <div class="threadbuild_block">
          <div class="heading">
-            <h2>Threadbuild</h2>
-            <img src="" alt="">
+            <h2 class="p2">Threadbuild</h2>
+            <b class="heading_i">i</b>
           </div>
-          <p class="description"><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
+          <p class="description d2"><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
           <div class="Thread_container">
             <div class="thread_heading">
-               <img src="" alt="">
+               <img src="./Images/Vector.png" alt="">
                <p>Thread A</p>
             </div>
             <div class="sub_sections">
@@ -123,17 +136,17 @@
             </div>
            <div class="icons_plus-buttons">
             <div class="thread_icons">
-               <img src="./Images/Navbar/Home.png" alt="">
-               <img src="./Images/Navbar/Notificatioins.png" alt="">
-               <img src="" alt="">
-               <img src="" alt="">
+               <img src="./Images/bulb.png" alt="">
+               <img src="./Images/Chat.png" alt="">
+               <img src="./Images/Question.png" alt="">
+               <img src="./Images/Flower.png" alt="">
             </div>
             <div class="thread_dropdown">
-               <button class="categ">Select categ</button>
-               <button class="process">Select Process</button>
+               <button class="categ">Select categ <img src="./Images/VectorDown.png" alt=""></button>
+               <button class="process">Select Process <img src="./Images/VectorDown.png" alt=""></button>
             </div>
            </div>
-            <button class="sub_thread-btn">Sub thread</button>
+            <button class="sub_thread-btn"><b>+</b>Sub thread</button>
             <div class="summary_thread">
                <p>Summary for Thread A</p>
                <input type="textarea" name="" id="">
@@ -143,10 +156,10 @@
 
         <div class="pointers_block">
          <div class="heading">
-            <h2>Technical Project Management</h2>
-            <img src="" alt="">
+            <h2 class="p3">Technical Project Management</h2>
+            <b class="heading_i">i</b>
           </div>
-          <p class="description"><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
+          <p class="description d3"><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
           <hr>
           <div class="pointer_container">
              <div class="title">
@@ -167,11 +180,15 @@
                      <p>Help</p>
                   </div>
                   <div class="editor">
-                     <img src="./Images/Navbar/Home.png" alt="">
-                     <img src="" alt="">
-                     <img src="" alt="">
-                     <p>paragraph</p>
-                     <img src="" alt="">
+                     <img src="./Images/arrow-curve-left-right.png" alt="">
+                     <img src="./Images/arrow-curve-left-down.png" alt="">
+                     <img src="./Images/arrow-expand-02.png" alt="">
+                     <p class="para_block">paragraph</p>
+                     <div class="threedots">
+                        <img src="./Images/Ellipse 197.png" alt="">
+                        <img src="./Images/Ellipse 197.png" alt="">
+                        <img src="./Images/Ellipse 197.png" alt="">
+                     </div>
                   </div>
                </div>
                <input type="textarea">
@@ -181,10 +198,10 @@
 
         <div class="sa_block">
          <div class="heading">
-            <h2>Technical Project Management</h2>
-            <img src="" alt="">
+            <h2 class="p4">Technical Project Management</h2>
+            <b class="heading_i">i</b>
           </div>
-          <p class="description"><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
+          <p class="description d4"><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
           <hr>
           <div class="sa_container">
             <div class="introduction">
@@ -192,7 +209,7 @@
                <p>Introduction</p>
             </div>
             <div class="intro_content">
-               <p>The 4SA Method ,How to bring a idea into progress?</p>
+               <p class="i1">The 4SA Method ,How to bring a idea into progress?</p>
                <h6>See More</h6>
             </div>
             <div class="thread_a">
@@ -218,9 +235,9 @@
 
 <!-- icons -->
      <div class="right_icons">
-       <div class="question circle"><img src="" alt=""></div>
-       <div class="chat circle"><img src="" alt=""></div>
-       <div class="schedule circle"><img src="" alt=""></div>
+       <div class="question circle"><img src="./Images/question-mark.png" alt=""></div>
+       <div class="chat circle"><img src="./Images/meeting 1.png" alt=""></div>
+       <div class="schedule circle"><img src="./Images/schedule (1) 1.png" alt=""></div>
      </div>
 
      <script src="index.js"></script>
